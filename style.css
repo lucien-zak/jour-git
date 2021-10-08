@@ -7,8 +7,8 @@ body {
     margin: 0;
 }
 
-table, th, td {
-    border: 1px solid black;
+table, td {
+    border: 1px dashed black;
   }
 
 td {
@@ -20,4 +20,10 @@ td {
 th {
     font-size: 40px;
     font-weight: bold;
+    border: thick double black;
+}
+
+.titre {
+    text-align: center;
+    border: thick double black;
 }
